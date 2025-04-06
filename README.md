@@ -7,7 +7,7 @@ Welcome to **Aerovista**, a complete **Java + MySQL** based Airline Reservation 
 ## 🌐 Live Website
 
 👉 **View the project website**:  
-🔗 [Click Here to Explore](https://your-github-username.github.io/Aerovista-Airline-Project/)  
+🔗 [Click Here to Explore](https://bskalsi0.github.io/Aerovista_Airline_Management_System/)  
 Browse project features, screenshots, and download JAR/SQL files directly from the website.
 
 ---
@@ -20,10 +20,7 @@ If you want to download the complete project folder including:
 - JAR Executables
 - MySQL `.sql` file
 - Screenshots & Documentation
-
-🎯 Click here to download via Google Drive:  
-📁 [Download Full Project Folder](https://drive.google.com/file/d/1pzbqwDwqBN-g-450oZr1gtw4QK4PEQN4/view?usp=sharing)
-
+  
 ---
 
 ## 🖥️ Screenshots
@@ -32,7 +29,7 @@ Here are some sample screenshots from the project:
 
 | Home Page | Flight Details | Add Customer |
 |----------|----------------|--------------|
-| ![](Screenshots/Home_page.jpg) | ![](Screenshots/FlightDetails_page.jpg) | ![](Screenshots/AddCustomer_page.jpg) |
+| ![](Home_page.jpg) | ![](Screenshots/FlightDetails_page.jpg) | ![](Screenshots/AddCustomer_page.jpg) |
 
 | Book Flight | Cancel Ticket | Boarding Pass | Login Page |
 |------------|----------------|----------------|-------------|
