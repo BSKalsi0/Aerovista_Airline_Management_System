@@ -29,11 +29,11 @@ Here are some sample screenshots from the project:
 
 | Home Page | Flight Details | Add Customer |
 |----------|----------------|--------------|
-| ![](Home_page.jpg) | ![](Screenshots/FlightDetails_page.jpg) | ![](Screenshots/AddCustomer_page.jpg) |
+| ![](Home_page.jpg) | ![](FlightDetails_page.jpg) | ![](AddCustomer_page.jpg) |
 
 | Book Flight | Cancel Ticket | Boarding Pass | Login Page |
 |------------|----------------|----------------|-------------|
-| ![](Screenshots/BookFlight_page.jpg) | ![](Screenshots/CancelTicket_Page.jpg) | ![](Screenshots/BordingPass_Page.jpg) | ![](Screenshots/Login_Page.jpg) |
+| ![](BookFlight_page.jpg) | ![](CancelTicket_Page.jpg) | ![](BordingPass_Page.jpg) | ![](Login_Page.jpg) |
 
 ---
 
