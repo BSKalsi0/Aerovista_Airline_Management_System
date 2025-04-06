@@ -63,7 +63,27 @@ Here are some sample screenshots from the project:
 ---
 
 ## 📁 Project Structure
-
+📦 Aerovista_Airline_Management_System/
+├── 📂 Screenshots/                 # All UI screenshots shown on the website
+│   ├── AddCustomer_page.jpg
+│   ├── BookFlight_page.jpg
+│   ├── CancelTicket_Page.jpg
+│   ├── FlightDetails_page.jpg
+│   ├── Home_page.jpg
+│   ├── Login_Page.jpg
+│   └── BordingPass_Page.jpg
+│
+├── 📂 dist/                        # Final built JAR file
+│   └── Aerovista_Project.jar
+│
+├── 📂 database/                    # MySQL database file
+│   └── airlinemanagementsystem.sql
+│
+├── index.html                     # Interactive website homepage (GitHub Pages)
+├── style.css                      # Website styling
+├── script.js                      # Website interactivity
+├── README.md                      # Project overview and instructions
+└── LICENSE                        # MIT License for open-source distribution
 
 ---
 
