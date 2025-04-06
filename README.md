@@ -78,7 +78,7 @@ Here are some sample screenshots from the project:
 
 ## License 📄
 
-The project is available as open source under the terms of the [MIT License](https://github.com/BSKalsi0/Personal-Portfolio-Website/blob/main/LICENSE).
+The project is available as open source under the terms of the [MIT License](https://github.com/BSKalsi0/Aerovista_Airline_Management_System/blob/main/LICENSE).
 
 
 ---
