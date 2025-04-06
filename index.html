@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aerovista Airline Project</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f6f7;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2980b9;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #2980b9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 0.5rem 1rem 1rem 0;
+      padding: 0.8rem 1.2rem;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #1abc9c;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #2c3e50;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    /* Lightbox Styles */
+    #lightbox {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        padding: 0.6rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✈ Aerovista Airline Management System ✈</h1>
+    <p>A complete Java + MySQL based airline project</p>
+  </header>
+
+  <section>
+    <h2>📦 Downloads</h2>
+    <a href="Files/Jar_Files/mysql-connector-java-8.0.28.jar" download class="btn">Sql Connector Jar File</a>
+    <a href="Files/Jar_Files/jcalendar-tz-1.3.3-4.jar" download class="btn">Calendar Jar File</a>
+    <a href="Files/Jar_Files/rs2xml.jar" download class="btn">Xml Jar File</a>
+    <a href="Files/Jar_Files/itext-2.1.7.jar" download class="btn">Pdf Jar File</a>
+    <a href="Files/airlinemanagementsystem.sql" download class="btn">Download SQL File</a>
+    <a href="https://drive.google.com/file/d/1pzbqwDwqBN-g-450oZr1gtw4QK4PEQN4/view?usp=sharing" target="_blank" class="btn">Google Drive (Full Folder)</a>
+  </section>
+
+  <section>
+    <h2>🖼️ Project Screenshots</h2>
+    <div class="gallery">
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Home Page</p>
+        <img src="Home_page.jpg" alt="Screenshot 1">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Flight Details</p>
+        <img src="FlightDetails_page.jpg" alt="Screenshot 2">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Another Flight Details</p>
+        <img src="FlightDetails_page.jpg" alt="Screenshot 3">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Add Customer</p>
+        <img src="AddCustomer_page.jpg" alt="Screenshot 4">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Book Flight</p>
+        <img src="BookFlight_page.jpg" alt="Screenshot 5">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Cancel Ticket</p>
+        <img src="CancelTicket_Page.jpg" alt="Screenshot 6">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Boarding Pass</p>
+        <img src="BordingPass_Page.jpg" alt="Screenshot 7">
+      </div>
+      <div>
+        <p style="text-align:center; margin-bottom: 6px; font-weight: 500;">Login Page</p>
+        <img src="Login_Page.jpg" alt="Screenshot 8">
+      </div>
+    </div>
+  </section>
+  
+
+  <section>
+    <h2>📝 Project Info</h2>
+    <p>This is a Java Swing + MySQL based Airline Reservation System that includes features like flight booking, customer management, boarding pass generation, and more. Fully functional with a stylish UI and database integration.</p>
+  </section>
+
+  <footer>
+    <p>Created by Balwinder Singh Kalsi Hosted with ❤️ on GitHub Pages</p>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" onclick="this.style.display='none'">
+    <img id="lightbox-img" src="#" alt="Preview">
+  </div>
+
+  <!-- JS to enable lightbox -->
+  <script>
+    const images = document.querySelectorAll(".gallery img");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    images.forEach(img => {
+      img.addEventListener("click", () => {
+        lightbox.style.display = "flex";
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+      });
+    });
+
+    lightbox.addEventListener("click", () => {
+      lightbox.style.display = "none";
+    });
+  </script>
+</body>
+</html>
